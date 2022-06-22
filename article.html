@@ -92,8 +92,8 @@
       <div>
         <h3>Subsribe Email</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, architecto!</p>
-        <form action="">
-          <input type="email" placeholder="subscribe@me.com" required
+        <form name="contact" method="POST" data-netlify="true" action="">
+          <input type="email" name="email" placeholder="subscribe@me.com" required
             oninvalid="this.setCustomValidity('Зүгээр л бичих юмаа биччих хөгжшөөн!')"
             oninput="this.setCustomValidity('Болжийшд Андаа😅')">
           <input type="submit" value="Subscribe" class="btn btn-primary">
